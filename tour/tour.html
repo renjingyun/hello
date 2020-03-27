@@ -27,16 +27,64 @@
 
     .qui-header{
         background-color: #2bab79;
+        height: 60px;
         
     }
+
+    .plcRoutelist{
+        margin-left: 5px;
+    }
+
+    .pic{
+        border-radius: 50%;
+    }
+
+    .bottom{
+        /* border: 1px solid red; */
+        position: absolute;
+        top: 375px;
+        left: 460px ;
+
+    }
+
+    .face{
+        float: left;
+        border: 1px solid white;
+        width: 39px;
+        height: 39px;
+        border-radius: 50%;
+    }
+
+    .title{
+        position: absolute;
+        color: white;
+        white-space: nowrap;
+        font-size: 18px;
+        line-height: 50px;
+        font-weight: bolder;
+        margin-left: 50px;
+
+
+    }
+
 </style>
+
 <body>
     <header class="qui-header">
         <h1>国内旅游计划</h1>
     </header>
+    
+    <section class="plcRoutelist">
+        <a href="">
+            <img src="images/华东.jpg" alt="" width="635">
+        </a>
 
-    <a href="">
-        <img src="images/华东.jpg" alt="" width="640">
-    </a>
+        <div class="bottom">
+            <p class="face">
+                <img src="images/touxiang.jpg" alt="" width="38" height="38" class="pic">
+            </p>
+             <h2 class="title">我的旅游行程</h2>
+        </div>
+    </section>
 </body>
 </html>
